@@ -2,6 +2,10 @@
 
 Logged in as {{ user.username }}
 
+<a href="{% url 'createtodo' %}">Create</a>
+<a href="{% url 'currenttodos' %}">Current</a>
+<a href="{% url 'completedtodos' %}">Completed</a>
+
 <form action="{% url 'logoutuser' %}" method="POST">
     {% csrf_token %}
 <button type="submit">Logout</button>
