@@ -1,2 +1,5 @@
-"# Getit Dun" 
-Todo list creator website. Created using Django, python, html, bootstrap
+# Getit Dun
+
+Todo list web app. 
+
+Created using Django, python, html, bootstrap.
